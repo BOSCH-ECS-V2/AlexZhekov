@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/alexanderzhekov/Projects/hw2/build",
+  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -o CMakeFiles/hw2.dir/main.c.o -c /Users/alexanderzhekov/Projects/hw2/main.c",
+  "file": "/Users/alexanderzhekov/Projects/hw2/main.c"
+}
+]
