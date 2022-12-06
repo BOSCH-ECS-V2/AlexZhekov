@@ -1,5 +1,6 @@
 #ifndef __FLIP_FUNCS
 #define __FLIP_FUNCS
+ #include <stdlib.h>
  
 void swap(int* valA, int* valB) {
     *valA += *valB;
@@ -48,8 +49,8 @@ void centerColFlip(int** array, int n, int m) {
     if(m % 2) {
         rowFlip(array, n, m);
     }
-}   else {
+    else {
         printf("A matrix with an even number of columns cannot be center flipped!\n");
     }
-
+}
 #endif

@@ -70,7 +70,14 @@ int main() {
     for(size_t i = 0; i < n; ++i)
         array[i] = (int*)malloc(sizeof(int) * m);
 
+    // Initializing array and passing it to menu func
     enterArray(array, n, m);
     menu(array, n, m);
+
+    // Deallocating heap memory
+    for(size_t i = 0; i < n; ++i) {
+        free(array[i]);
+    }
+    free(array);
     return 0;
 }
